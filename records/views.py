@@ -6,3 +6,6 @@ from django.http import HttpResponse
 def records(request):
     return HttpResponse("HELLO FROM RECORDS! ازيك ياكبير")
 
+def slamualikm(request):
+    return HttpResponse("عليكم السلام ورحمة الله وبركاته")
+
